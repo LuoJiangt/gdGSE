@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/399061b4-638d-4e15-b64e-35e49fd307fb)
+
 # gdGSE
 
 The gdGSE algorithm processes either bulk or single-cell transcriptomic data, and outputs a gene set enrichment matrix by discretizing the original gene expression matrix. 
