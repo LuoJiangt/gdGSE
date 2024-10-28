@@ -97,15 +97,9 @@ devtools::install_github("WangX-Lab/gdGSE")
 # Examples
 
 ```
-Expression_matrix <- load(system.file("data/Bulk_exp_matrix.rda",package = "gdGSE"))
-print(Expression_matrix)
-# "exp_matrix"
+load(system.file("data/Bulk_exp_matrix.rda",package = "gdGSE"))
 Condition_type <- load(system.file("data/Bulk_condition.rda",package = "gdGSE"))
-print(Condition_type)
-# "condition"
 Signature_set <- load(system.file("data/Bulk_Signature.rda",package = "gdGSE"))
-print(Signature_set)
-# "Signature"
 
 library(gdGSE)
 gdGSE_Score <- gdGSE(exp_matrix,condition, Signature,data_type = "Bulk") #If Users calculate enrichment score in single cell, please change "Bulk" into "SingleCell".
