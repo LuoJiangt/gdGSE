@@ -109,7 +109,7 @@ file_path <- system.file("extdata", "SingleCell_example.RData", package = "gdGSE
 load(file_path)
 ls()
 # [1] "file_path"  "SC_condition"  "SC_exp_matrix" "SC_Signature" 
-gdGSE_Score <- gdGSE(SC_exp_matrix,SC_condition, SC_Signature,data_type = "SingleCell")  #If Users calculate enrichment score in single cell, please change "Bulk" into "SingleCell".
+gdGSE_Score <- gdGSE(SC_exp_matrix,SC_condition, SC_Signature,data_type = "SingleCell")  #If Users calculate enrichment score in Bulk, please change "SingleCell" into "Bulk".
 ```
 
 &nbsp;
